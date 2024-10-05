@@ -1,0 +1,258 @@
+{
+    "products":[
+      {
+        "id": 1,
+        "name": "White Bread",
+        "category": "breadsAndSweets",
+        "price": 1.50,
+        "image_url": "../images/white-bread.jpg"
+      },
+      {
+          "id": 2,
+          "name": "Whole Wheat Bread",
+          "category": "breadsAndSweets",
+          "price": 2.00,
+          "image_url": "../images/Whole-Wheat-Bread.jpeg"
+      },
+      {
+          "id": 4,
+          "name": "Chocolate Cake",
+          "category": "breadsAndSweets",
+          "price": 15.00,
+          "image_url": "../images/Chocolate-Cake.webp"
+      },
+      {
+          "id": 5,
+          "name": "Doughnuts",
+          "category": "breadsAndSweets",
+          "price": 5.00,
+          "image_url": "../images/Doughnuts.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Strawberries",
+        "category": "VegetablesFruits",
+        "price": 2.50,
+        "image_url": "../images/pexels-nietjuh-2820144.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Blueberries",
+        "category": "VegetablesFruits",
+        "price": 3.00,
+        "image_url": "https://images.pexels.com/photos/2539170/pexels-photo-2539170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "id": 9,
+        "name": "Lettuce",
+        "category": "VegetablesFruits",
+        "price": 1.20,
+        "image_url": "https://images.pexels.com/photos/8879381/pexels-photo-8879381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "id": 10,
+        "name": "Tomatoes",
+        "category": "VegetablesFruits",
+        "price": 2.00,
+        "image_url": "../images/thumb-tomatoes.png"
+      },
+      {
+        "id": 11,
+        "name": "Tomato Ketchup",
+        "category": "VegetablesFruits",
+        "price": 1.00,
+        "image_url": "../images/thumb-tomatoketchup.png"
+      },
+      {
+        "id": 12,
+        "name": "Bell Peppers",
+        "category": "VegetablesFruits",
+        "price": 2.50,
+        "image_url": "https://images.pexels.com/photos/2893635/pexels-photo-2893635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "id": 13,
+        "name": "Onions",
+        "category": "VegetablesFruits",
+        "price": 0.50,
+        "image_url": "https://toriavey.com/images/2013/05/All-About-Onions-on-TheShiksa.com-history-cooking-tutorial.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Potatoes (1kg)",
+        "category": "VegetablesFruits",
+        "price": 1.50,
+        "image_url": "https://images.pexels.com/photos/2286776/pexels-photo-2286776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "id": 15,
+        "name": "Garlic",
+        "category": "VegetablesFruits",
+        "price": 0.80,
+        "image_url": "https://images.pexels.com/photos/1392585/pexels-photo-1392585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "id": 16,
+        "name": "Zucchini",
+        "category": "VegetablesFruits",
+        "price": 1.30,
+        "image_url": "https://images.pexels.com/photos/7815255/pexels-photo-7815255.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "id": 17,
+        "name": "Spinach",
+        "category": "VegetablesFruits",
+        "price": 2.00,
+        "image_url": "https://images.pexels.com/photos/2325843/pexels-photo-2325843.jpeg?auto=compress&cs=tinysrgb&w=300"
+      },
+      {
+        "id": 18,
+        "name": "Chicken Breast (1kg)",
+        "category": "MeatFish",
+        "price": 8.00,
+        "image_url": "https://images.pexels.com/photos/28439616/pexels-photo-28439616/free-photo-of-raw-chicken-breast-on-wooden-cutting-board.png?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "id": 19,
+        "name": "Ground Beef (1kg)",
+        "category": "MeatFish",
+        "price": 10.00,
+        "image_url": "https://images.pexels.com/photos/128401/pexels-photo-128401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "id": 20,
+        "name": "Pork Chops (1kg)",
+        "category": "MeatFish",
+        "price": 9.50,
+        "image_url": "https://images.pexels.com/photos/7333266/pexels-photo-7333266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "id": 21,
+        "name": "Salmon Fillet (1kg)",
+        "category": "MeatFish",
+        "price": 15.00,
+        "image_url": "https://images.pexels.com/photos/8951035/pexels-photo-8951035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "id": 22,
+        "name": "Shrimp (1kg)",
+        "category": "MeatFish",
+        "price": 12.00,
+        "image_url": "https://images.pexels.com/photos/679454/pexels-photo-679454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "id": 23,
+        "name": "Almond Milk (1L)",
+        "category": "Dairy",
+        "price": 2.50,
+        "image_url": "https://images.pexels.com/photos/3735169/pexels-photo-3735169.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      },
+      {
+        "id": 24,
+        "name": "Yogurt (500g)",
+        "category": "Dairy",
+        "price": 1.50,
+        "image_url": "https://jebnalak.com/cdn/shop/files/image_aaa92d92-8440-40e7-88e7-fbb7f3597644_800x.png?v=1684912792"
+      },
+      {
+        "id": 25,
+        "name": "Cheddar Cheese (200g)",
+        "category": "Dairy",
+        "price": 3.00,
+        "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fyoungsbazar.com%2Fproduct%2Fcheddar-cheese-shredded-200gm%2F&psig=AOvVaw1gcXNuZGLH85IpSlYe6FIW&ust=1727876234241000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMigz96m7YgDFQAAAAAdAAAAABAE"
+      },
+      {
+        "id": 26,
+        "name": "Cream Cheese (200g)",
+        "category": "Dairy",
+        "price": 2.50,
+        "image_url": "../images/psd-sour-cream-sauce-bowl-isolated-transparent-background-png_1054285-65064-removebg-preview.png"
+      },
+      {
+        "id": 27,
+        "name": "Butter (250g)",
+        "category": "Dairy",
+        "price": 3.20,
+        "image_url": "https://images.unsplash.com/photo-1603596310923-dbb12732f9c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 28,
+        "name": "Olive Oil (500ml)",
+        "category": "Pantry",
+        "price": 5.00,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlgplt6TbBcqGjdD51FjTsPOv5m0Rxz4rqsw&s"
+      },
+      {
+        "id": 29,
+        "name": "Vegetable Oil (1L)",
+        "category": "Pantry",
+        "price": 2.50,
+        "image_url": "https://cdn.pixabay.com/photo/2024/06/16/16/34/oil-8833782_960_720.jpg"
+      },
+      {
+        "id": 30,
+        "name": "Rice (1kg)",
+        "category": "Pantry",
+        "price": 1.80,
+        "image_url": "https://agrokings.io/wp-content/uploads/2020/12/1KG-LG-1024x1024-1.jpg"
+      },
+      {
+        "id": 31,
+        "name": "Pasta (500g)",
+        "category": "Pantry",
+        "price": 1.20,
+        "image_url": "../images/Pasta.jpeg"
+      },
+      {
+        "id": 32,
+        "name": "Canned Tomatoes",
+        "category": "Pantry",
+        "price": 1.00,
+        "image_url": "../images/Canned_Tomatoes.webp"
+      },
+      {
+        "id": 33,
+        "name": "Peanut Butter (500g)",
+        "category": "Pantry",
+        "price": 3.50,
+        "image_url": "../images/penutbutter.webp" },
+      {
+        "id": 34,
+        "name": "Honey (500g)",
+        "category": "Pantry",
+        "price": 4.00,
+        "image_url": "../images/honey.jpg"
+      },
+      {
+        "id": 35,
+        "name": "Granola Bars",
+        "category": "Snacks",
+        "price": 2.50,
+        "image_url": "../images/Granola_Bars.jpg"
+      },
+      {
+        "id": 36,
+        "name": "Chips",
+        "category": "Snacks",
+        "price": 1.50,
+        "image_url": "https://cdn.mafrservices.com/sys-master-root/hd6/hd1/48260064575518/298536_main.jpg?im=Resize=1700"
+      },
+      {
+        "id": 37,
+        "name": "Chocolate Bar",
+        "category": "Snacks",
+        "price": 1.20,
+        "image_url": "../images/choclate-bar.webp"
+      },
+      {
+        "id": 38,
+        "name": "Popcorn",
+        "category": "Snacks",
+        "price": 2.00,
+        "image_url": "../images/popcorn.webp"
+      }
+    
+    
+      ]}
+
+     

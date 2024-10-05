@@ -1,44 +1,35 @@
-let users = JSON.parse(sessionStorage.getItem('users')) || [];
-document.getElementById('registerForm').addEventListener('submit', function (e) {
-    e.preventDefault();
-    
-    const username = document.getElementById('username').value;
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
+document.getElementById('registerForm').addEventListener('submit', async function (e) {
+  e.preventDefault();
 
-      // Check for existing username
-      if (users.some(user => user.username === username)) {
-        alert('Username already exists. Please choose another.');
-        return;
-    }
- 
+  const username = document.getElementById('username').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const password = document.getElementById('password').value.trim();
 
-    // Encrypt user data
-    const encryptedUsername = CryptoJS.AES.encrypt(username, 'secret-key').toString();
-    const encryptedEmail = CryptoJS.AES.encrypt(email, 'secret-key').toString();
-    const encryptedPassword = CryptoJS.AES.encrypt(password, 'secret-key').toString();
+  if (!username || !email || !password) {
+      alert('Please fill in all fields.');
+      return;
+  }
 
+  try {
+      const response = await fetch('/register', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ username, email, password }),
+      });
 
-    users.push({ encryptedUsername, encryptedEmail, encryptedPassword });
-    sessionStorage.setItem('users', JSON.stringify(users));
-    sessionStorage.setItem('users', JSON.stringify(users));
-    sessionStorage.setItem('isLoggedIn', 'true');
-    sessionStorage.setItem('isAdmin', 'false');
-
-    alert('Registration successful!');
-    window.location.href = 'index.html';
-
-
-    /*
-    // Store encrypted user data in sessionStorage
-    sessionStorage.setItem('username', encryptedUsername);
-    sessionStorage.setItem('email', encryptedEmail);
-    sessionStorage.setItem('password', encryptedPassword);
-    sessionStorage.setItem('isLoggedIn', 'true');
-    sessionStorage.setItem('isAdmin', 'false');
-
-    alert('Registration successful!');
-    window.location.href = 'index.html';   */
-
-
+      const result = await response.json();
+      
+      if (response.ok) {
+          alert(result.message);
+          sessionStorage.setItem('isLoggedIn', 'true');
+          sessionStorage.setItem('isAdmin', 'false');
+          window.location.href = 'index.html';
+      } else {
+          alert(result.message);
+      }
+  } catch (error) {
+      alert('Error during registration: ' + error.message);
+  }
 });
